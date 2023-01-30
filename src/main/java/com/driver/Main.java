@@ -17,12 +17,12 @@ public class Main {
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        Product pd=new Product();
+        Product p=new Product();
 
 
-        pd.product(1,2);
-        pd.product(1,2,3);
-        pd.product(1.2,1.4);
+        p.product(1,2);
+        p.product(1,2,3);
+        p.product(1.2,1.4);
 
 
 
